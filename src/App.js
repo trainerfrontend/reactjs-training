@@ -6,11 +6,12 @@ import OptimizedForm from './form/OptimizedForm';
 import { ABC, XYZ } from './form/Example';
 // import List from './components/global/List';
 import List from './components/global/ProductList/List'
+import Fetch from './APIRequest/FetchAPI'
 
 function App() {
   return (
     <div className="App">
-      <List />
+      <Fetch />
 
 
 
