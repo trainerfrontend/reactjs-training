@@ -1,4 +1,4 @@
-import Logo from './Logo';
+import Logo from './Logo/Logo';
 
 const Header = () => {
     const heading = {

@@ -8,7 +8,7 @@ const Form = () => {
         console.log("click")
     }
     const changeHandler = (e) => {
-        const { value, name } = e.target;
+        const { name, value } = e.target;
         // setUserData(value)
         setUserData((prevState) => ({
             ...prevState, [name]: value
